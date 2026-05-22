@@ -1,0 +1,18 @@
+crewai==0.80.0
+supabase==2.9.1
+apscheduler==3.10.4
+fastapi==0.115.4
+python-multipart==0.0.20
+uvicorn[standard]==0.32.0
+httpx==0.27.2
+feedparser==6.0.11
+openpyxl==3.1.5
+# 2026-04-29: pytrends for Google Trends demand-intent signal scout.
+# Unofficial library — Google rate-limits hard, so the scout is heavily
+# fail-soft and gates output behind cross-source corroboration.
+pytrends==4.9.2
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+langfuse==3.14.6
+youtube-transcript-api==0.6.3
